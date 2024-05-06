@@ -1,4 +1,5 @@
-function evaluarFase1(nombre, apellido, departamento, puntajeFP, puntajePI, puntajePOO, evidenciaFP, evidenciaPI, evidenciaPOO, promedioIngles, hizoLeccionesCT) {
+function evaluarFase1(nombre, apellido, departamento, puntajeFP, puntajePI, puntajePOO, evidenciaFP, 
+    evidenciaPI, evidenciaPOO, promedioIngles, hizoLeccionesCT) {
     
     let puntajeCT = hizoLeccionesCT ? 100:00;
     let statusIngles = promedioIngles >= 50 ? "ok" : "reprobado";
@@ -24,8 +25,6 @@ function evaluarFase1(nombre, apellido, departamento, puntajeFP, puntajePI, punt
 
     return mensaje;
     
-
-
 }
 
 console.log(evaluarFase1("Alberto", "del Pino", "Canelones", 67, 81, 70, true, true, 4, 90, true));
